@@ -1,8 +1,13 @@
 .pad{
 	padding-top: 5px;
 }
+.pad1{
+	padding-top: 7px;
+}
 
-
+.btn-warning {
+    background-color: #D89448 !important;
+}
 
 <!-- Footer  Related -->
 .footer {
