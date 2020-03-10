@@ -5,6 +5,10 @@
 	padding-top: 7px;
 }
 
+.wrapper {
+  height: 60vh;
+}
+
 .btn-warning {
     background-color: #D89448 !important;
 }
