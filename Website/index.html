@@ -100,7 +100,48 @@
             </div>
             <br>
         </section>
-    </div>
+    </div>	
+		<!-- Booking Form -->
+		<div class="container pad">
+			<section class="page-section bg-dark text-white">
+				<div style="padding: 10px;">
+						<span class="lead font-weight-bold" style="color:#D89448">Book A Table</span>
+				</div>
+				<form class="needs-validation" style="padding: 10px;" novalidate>
+					<div class="form-row">
+						<div class="col-md-4 mb-3">
+							<label>First name</label>
+							<input type="text" class="form-control" id="bookingFirstName" placeholder="First name" required>
+							<div class="valid-feedback">Looks good!</div>
+						</div>
+						<div class="col-md-4 mb-3">
+							<label>Last name</label>
+							<input type="text" class="form-control" id="bookingLastName" placeholder="Last name" required>
+							<div class="valid-feedback">Looks good!</div>
+						</div>
+						<div class="col-md-4 mb-3">
+							<label>Telephone Number</label>
+							<input type="tel" class="form-control" id="bookingTelephone" placeholder="Phone Number" required>
+							<div class="valid-feedback">Looks good!</div>
+						</div>						
+					</div>
+					<div class="form-row">
+						<div class="col-md-4 mb-3">
+							<label>Date</label>
+							<input type="date" class="form-control" id="bookingDate" min="09/03/2020" max="09/03/2021" required>
+							<div class="valid-feedback">Looks good!</div>
+						</div>
+						<div class="col-md-2 mb-1">
+							<label>Number of People</label>
+							<input type="number" min="1" max="10" class="form-control" id="bookingNumPeople" required>
+							<div class="invalid-feedback">Please provide a valid city.</div> <!-- ******************** -->
+						</div>
+					</div>
+					<button class="btn btn-primary" type="submit" style="background-color:#D89448; border-color:#D89448;">Submit Booking</button>
+				</form>
+			</section>
+		</div>
+		<!-- End of Booking Form -->	
     <!-- Second Section -->
     <div class="container pad">
         <section class="page-section  bg-dark text-white">
@@ -140,7 +181,7 @@
             </div>
             <br>
         </section>
-    </div>
+    </div>	
     <!-- email sign up -->
     <div class="container pad">
         <section class="page-section  bg-dark text-white">
