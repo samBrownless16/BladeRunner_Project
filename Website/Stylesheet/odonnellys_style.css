@@ -9,6 +9,11 @@
   height: 60vh;
 }
 
+.alert-custom{
+  
+  color:#D89448;
+}
+
 .btn-warning {
     background-color: #D89448 !important;
 }
